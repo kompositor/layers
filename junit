@@ -1,1 +1,1 @@
-gradle-dependencies: junit:junit:4.12
+gradle-dependencies: 'testCompile ''junit:junit:4.12'''
