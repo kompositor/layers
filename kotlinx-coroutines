@@ -1,0 +1,8 @@
+gradle-dependencies: 'compile ''org.jetbrains.kotlinx:kotlinx-coroutines-core:0.20'''
+
+gradle-after: |  
+    kotlin {
+        experimental {
+            coroutines "enable"
+        }
+    }
