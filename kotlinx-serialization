@@ -1,0 +1,11 @@
+gradle-ext-block: 'ext.serialization_version = ''0.3'''
+
+gradle-build-repositories: 'maven { url "https://kotlin.bintray.com/kotlinx" }'
+gradle-repositories: 'maven { url "https://kotlin.bintray.com/kotlinx" }'
+
+gradle-build-dependencies: 'classpath "org.jetbrains.kotlinx:kotlinx-gradle-serialization-plugin:$serialization_version"'
+gradle-plugins: 'kotlinx-serialization'
+
+gradle-dependencies: ['compile "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"',
+    'compile "org.jetbrains.kotlinx:kotlinx-serialization-runtime:$serialization_version"']
+
